@@ -11,7 +11,7 @@ Press `F1` in VSCode, type `ext install` and then look for `vscode-author-genera
 ## Features
 
 - Support multiple templates, `js`, `css`, `html/htm` file types are supported for now.
-- Support custom infomation, `author name`, `email`, `date` info is supported for now.
+- Support custom infomation, `author name`, `github`, `date` info is supported for now.
 - Add `cmd+u` keybindings for quick update.
 
 ## Usage
@@ -20,7 +20,7 @@ Press `F1` in VSCode, type `ext install` and then look for `vscode-author-genera
 
 - `Preferences` -> `Settings` to add your own settings
 - `author-generator.author` author name, will replace `[author]` in your `*.tpl` file
-- `author-generator.email`. author email, will replace `[email]` in your `*.tpl` file
+- `author-generator.github`. author github, will replace `[github]` in your `*.tpl` file
 - `author-generator.dateFormat` will change your date format(default format is `YYYY-MM-DD HH:mm:ss`)
 - `author-generator.updateOnSave` set `true` to trigger updateInfo on save, only `*.tpl` template files exsit will trigger
 
@@ -40,4 +40,4 @@ Press `F1` in VSCode, type `ext install` and then look for `vscode-author-genera
 
 - `vscode-author-generator` use file suffix as template name. eg: `js.tpl` is the template for `*.js` files. if the specific template file doesn't exsit, `default.tpl` will be used.
 - if you want to add another template, just make sure the template filename is correct. eg: add a file named `py.tpl` in `templates` directory will make `*.py` files add this template info.
-- notice: `[author]`, `[email]` will automatically replaced with infomation in your VSCode Configration.
+- notice: `[author]`, `[github]` will automatically replaced with infomation in your VSCode Configration.

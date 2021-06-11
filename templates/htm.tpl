@@ -1,6 +1,6 @@
 <!--
 @author [author]
-@email [email]
+@github [github]
 @create date [date]
 @modify date [date]
 @desc [description]

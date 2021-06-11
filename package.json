@@ -47,10 +47,10 @@
           "default": "[author]",
           "description": "author name"
         },
-        "author-generator.email": {
+        "author-generator.github": {
           "type": "string",
-          "default": "[example@mail.com]",
-          "description": "email address"
+          "default": "[https://github.com/github]",
+          "description": "github address"
         },
         "author-generator.dateFormat": {
           "type": "string",

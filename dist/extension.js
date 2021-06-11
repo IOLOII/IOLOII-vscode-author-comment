@@ -5679,7 +5679,7 @@ var moment = createCommonjsModule(function (module, exports) {
 
 /**
  * @author xiaoping
- * @email edwardhjp@gmail.com
+ * @github edwardhjp@gmail.com
  * @create date 2017-02-10 13:10:00
  * @modify date 2021-03-10 16:02:24
  * @desc [generator file]
@@ -5788,7 +5788,7 @@ var generator = {
 
     try {
       text = fs.readFileSync(tplPath, 'utf-8');
-      text = text.replace(/\[author\]/, config.author).replace(/\[email\]/, config.email).replace(/\[date\]/g, config.date);
+      text = text.replace(/\[author\]/, config.author).replace(/\[github\]/, config.github).replace(/\[date\]/g, config.date);
     } catch (error) {
       vscode.window.showErrorMessage(error.message);
     }
@@ -5800,7 +5800,7 @@ var generator = {
     let config = vscode.workspace.getConfiguration('author-generator');
     config = {
       author: config.get('author'),
-      email: config.get('email'),
+      github: config.get('github'),
       date: this.getDate(),
       updateOnSave: config.get('updateOnSave')
     };
@@ -5817,7 +5817,7 @@ var generator = {
 
 /**
  * @author xiaoping
- * @email edwardhjp@gmail.com
+ * @github edwardhjp@gmail.com
  * @create date 2017-02-13 11:51:32
  * @modify date 2021-03-10 16:02:03
  * @desc [extension file]

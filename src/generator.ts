@@ -1,6 +1,6 @@
 /**
  * @author xiaoping
- * @email edwardhjp@gmail.com
+ * @github edwardhjp@gmail.com
  * @create date 2017-02-10 13:10:00
  * @modify date 2021-03-10 16:02:24
  * @desc [generator file]
@@ -99,7 +99,7 @@ export default {
       text = fs.readFileSync(tplPath, 'utf-8');
       text = text
         .replace(/\[author\]/, config.author)
-        .replace(/\[email\]/, config.email)
+        .replace(/\[github\]/, config.github)
         .replace(/\[date\]/g, config.date);
     } catch (error) {
       vscode.window.showErrorMessage(error.message);
@@ -110,7 +110,7 @@ export default {
     let config: any = vscode.workspace.getConfiguration('author-generator');
     config = {
       author: config.get('author'),
-      email: config.get('email'),
+      github: config.get('github'),
       date: this.getDate(),
       updateOnSave: config.get('updateOnSave')
     };
