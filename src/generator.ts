@@ -73,7 +73,7 @@ export default {
   },
   getTplPath(type) {
     type = type.toLowerCase();
-    let extDir = vscode.extensions.getExtension('edwardhjp.vscode-author-generator').extensionPath;
+    let extDir = vscode.extensions.getExtension('ioloii.ioloii-vscode-author-comment').extensionPath;
     let extPath = path.join(extDir, 'templates', `${type}.tpl`);
     if (fs.existsSync(extPath)) {
       return extPath;
@@ -83,7 +83,7 @@ export default {
   },
   hasTplPath(type) {
     type = type.toLowerCase();
-    let extDir = vscode.extensions.getExtension('edwardhjp.vscode-author-generator').extensionPath;
+    let extDir = vscode.extensions.getExtension('ioloii.ioloii-vscode-author-comment').extensionPath;
     let extPath = path.join(extDir, 'templates', `${type}.tpl`);
     if (fs.existsSync(extPath)) {
       return true;

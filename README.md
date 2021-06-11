@@ -32,9 +32,9 @@ Press `F1` in VSCode, type `ext install` and then look for `vscode-author-genera
 
 #### 1. Open extension directory and find `vscode-author-generator`
 
-- Windows: %USERPROFILE%\.vscode\extensions\{edwardhjp.vscode-author-generator-version}
-- Mac: ~/.vscode/extensions/{edwardhjp.vscode-author-generator-version}
-- Linux: ~/.vscode/extensions/{edwardhjp.vscode-author-generator-version}
+- Windows: %USERPROFILE%\.vscode\extensions\{ioloii.ioloii-vscode-author-comment-version}
+- Mac: ~/.vscode/extensions/{ioloii.ioloii-vscode-author-comment-version}
+- Linux: ~/.vscode/extensions/{ioloii.ioloii-vscode-author-comment-version}
 
 #### 2. Edit or add template file
 

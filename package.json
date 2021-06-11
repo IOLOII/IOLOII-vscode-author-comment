@@ -1,13 +1,13 @@
 {
-  "name": "vscode-author-generator",
-  "displayName": "vscode-author-generator",
+  "name": "IOLOII-vscode-author-comment",
+  "displayName": "IOLOII-vscode-author-comment",
   "description": "A Tool To Generate Author Info",
-  "version": "0.2.2",
-  "publisher": "edwardhjp",
-  "author": "xiaoping(edwardhjp@gmail.com)",
+  "version": "1.0.1",
+  "publisher": "IOLOII",
+  "author": "IOLOII",
   "repository": {
     "type": "git",
-    "url": "https://github.com/excaliburhan/vscode-author-generator.git"
+    "url": "https://github.com/IOLOII/IOLOII-vscode-author-comment.git"
   },
   "engines": {
     "vscode": "^1.5.0"
