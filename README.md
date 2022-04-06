@@ -1,3 +1,24 @@
+next to meger functional : https://github.com/IOLOII/author-tag
+recognizing file type to insert different author comment
+
+```vue
+  <!---------------------------
+  Name: Author Tag
+  File: README.md
+  Author: IOLOII
+  Data:   2022-04-06 16:33:32
+  ---------------------------->
+```
+```js
+  /**
+   * @author IOLOII
+   * @github https://github.com/IOLOII
+   * @create date 2022-04-06 16:33:32
+   * @modify date 2022-04-06 16:33:32
+   * @desc []
+   */
+```
+
 # vscode-author-generator
 
 A tool to generate Custom Author Info at the top of your file.
